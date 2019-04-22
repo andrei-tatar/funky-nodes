@@ -1,0 +1,23 @@
+{
+  "name": "funky-nodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --nolazy -r ts-node/register/type-check src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei-tatar/funky-nodes.git"
+  },
+  "author": "Andrei Tatar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrei-tatar/funky-nodes/issues"
+  },
+  "homepage": "https://github.com/andrei-tatar/funky-nodes#readme",
+  "devDependencies": {
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
+}
